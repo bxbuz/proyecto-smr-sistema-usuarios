@@ -24,3 +24,6 @@
 - Creación de carpetas compartidas (RRHH, IT, PUBLICO)
 - Configuración de permisos por grupos
 - Pruebas de acceso desde cliente
+- Creación de GPO de seguridad
+- Configuración de políticas básicas
+- Inicio de la documentación del proyecto
