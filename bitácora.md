@@ -19,3 +19,8 @@
 - Configuración de red
 - Unión al dominio empresa.local
 - Inicio de sesión con usuario del dominio
+
+## Día 4
+- Creación de carpetas compartidas (RRHH, IT, PUBLICO)
+- Configuración de permisos por grupos
+- Pruebas de acceso desde cliente
