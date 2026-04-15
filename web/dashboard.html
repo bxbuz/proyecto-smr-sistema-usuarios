@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Administración</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<p>Bienvenido al sistema de gestión de usuarios de la empresa</p>
+<h1>Panel de Administración</h1>
+
+<div class="menu">
+    <button onclick="mostrar('usuarios')">Usuarios</button>
+    <button onclick="mostrar('grupos')">Grupos</button>
+    <button onclick="mostrar('permisos')">Permisos</button>
+</div>
+
+<div id="contenido">
+
+    <div id="usuarios" class="seccion">
+        <h2>Usuarios</h2>
+        <table>
+            <tr><th>Usuario</th><th>Grupo</th></tr>
+            <tr><td>juan</td><td>IT</td></tr>
+            <tr><td>maria</td><td>RRHH</td></tr>
+            <tr><td>admin</td><td>Dirección</td></tr>
+        </table>
+    </div>
+
+    <div id="grupos" class="seccion oculto">
+        <h2>Grupos</h2>
+        <ul>
+            <li>GRP_IT</li>
+            <li>GRP_RRHH</li>
+            <li>GRP_DIRECCION</li>
+        </ul>
+    </div>
+
+    <div id="permisos" class="seccion oculto">
+        <h2>Permisos</h2>
+        <ul>
+            <li>IT → acceso a carpeta IT</li>
+            <li>RRHH → acceso a carpeta RRHH</li>
+            <li>PUBLICO → solo lectura</li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

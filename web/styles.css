@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    margin: 0;
+}
+
+/* LOGIN */
+.login-container {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    margin: 120px auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4facfe;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 95%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #00c6ff;
+}
+
+/* DASHBOARD */
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+.menu button {
+    margin: 5px;
+}
+
+/* TARJETAS */
+.seccion {
+    background: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.oculto {
+    display: none;
+}
+
+/* TABLA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #4facfe;
+    color: white;
+}
+
+td, th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
