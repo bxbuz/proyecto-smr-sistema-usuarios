@@ -27,3 +27,8 @@
 - Creación de GPO de seguridad
 - Configuración de políticas básicas
 - Inicio de la documentación del proyecto
+
+## Día 5 (Patricia y David)
+- Desarrollo de interfaz web básica
+- Inicio avanzado de la documentación
+- Redacción de introducción, objetivos y diseño
