@@ -32,3 +32,6 @@
 - Desarrollo de interfaz web básica
 - Inicio avanzado de la documentación
 - Redacción de introducción, objetivos y diseño
+
+## Día 6 (David)
+- Inicio de la presentación (canva)
