@@ -35,3 +35,6 @@
 
 ## Día 6 (David)
 - Inicio de la presentación (canva)
+
+## Día 7 (Patricia)
+- Mejora del diseño de la interfaz web
