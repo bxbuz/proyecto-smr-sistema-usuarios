@@ -2,51 +2,155 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel Administración</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<p>Bienvenido al sistema de gestión de usuarios de la empresa</p>
-<h1>Panel de Administración</h1>
+<body class="dashboard-page">
 
-<div class="menu">
-    <button onclick="mostrar('usuarios')">Usuarios</button>
-    <button onclick="mostrar('grupos')">Grupos</button>
-    <button onclick="mostrar('permisos')">Permisos</button>
+<div class="dashboard-layout">
+    <aside class="sidebar glass-panel">
+        <div class="sidebar-header">
+            <div class="logo-circle small"></div>
+            <h2>Admin<span class="highlight">Pro</span></h2>
+        </div>
+        <p class="welcome-text">Sistema de gestión</p>
+        
+        <nav class="menu">
+            <button class="nav-btn active" onclick="mostrar('usuarios'); updateActiveBtn(this)">
+                <span class="icon">👥</span> Usuarios
+            </button>
+            <button class="nav-btn" onclick="mostrar('grupos'); updateActiveBtn(this)">
+                <span class="icon">🏢</span> Grupos
+            </button>
+            <button class="nav-btn" onclick="mostrar('permisos'); updateActiveBtn(this)">
+                <span class="icon">🔐</span> Permisos
+            </button>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <header class="top-bar glass-panel">
+            <h1>Panel de Administración</h1>
+            <div class="user-profile">
+                <div class="avatar">A</div>
+            </div>
+        </header>
+
+        <div id="contenido" class="content-area">
+            <div id="usuarios" class="seccion glass-panel fade-in">
+                <div class="seccion-header">
+                    <h2>Usuarios Registrados</h2>
+                    <button class="btn-secondary">Añadir Usuario</button>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Usuario</th>
+                                <th>Grupo</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="user-cell">
+                                        <div class="avatar-small">J</div>
+                                        <span>juan</span>
+                                    </div>
+                                </td>
+                                <td><span class="badge it">IT</span></td>
+                                <td><span class="status active">Activo</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-cell">
+                                        <div class="avatar-small">M</div>
+                                        <span>maria</span>
+                                    </div>
+                                </td>
+                                <td><span class="badge rrhh">RRHH</span></td>
+                                <td><span class="status active">Activo</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-cell">
+                                        <div class="avatar-small admin">A</div>
+                                        <span>admin</span>
+                                    </div>
+                                </td>
+                                <td><span class="badge dir">Dirección</span></td>
+                                <td><span class="status active">Activo</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="grupos" class="seccion glass-panel fade-in oculto">
+                <div class="seccion-header">
+                    <h2>Grupos de Trabajo</h2>
+                </div>
+                <ul class="styled-list">
+                    <li>
+                        <div class="list-icon">🏢</div>
+                        <div class="list-content">
+                            <strong>GRP_IT</strong>
+                            <span>Departamento de Tecnología</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-icon">👥</div>
+                        <div class="list-content">
+                            <strong>GRP_RRHH</strong>
+                            <span>Recursos Humanos</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-icon">👑</div>
+                        <div class="list-content">
+                            <strong>GRP_DIRECCION</strong>
+                            <span>Junta Directiva</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="permisos" class="seccion glass-panel fade-in oculto">
+                <div class="seccion-header">
+                    <h2>Niveles de Acceso</h2>
+                </div>
+                <div class="grid-cards">
+                    <div class="perm-card">
+                        <div class="perm-icon">IT</div>
+                        <h3>Acceso IT</h3>
+                        <p>Acceso total a la carpeta IT y servidores.</p>
+                    </div>
+                    <div class="perm-card">
+                        <div class="perm-icon">RH</div>
+                        <h3>Acceso RRHH</h3>
+                        <p>Acceso a carpeta RRHH y nóminas.</p>
+                    </div>
+                    <div class="perm-card">
+                        <div class="perm-icon public">PB</div>
+                        <h3>Acceso Público</h3>
+                        <p>Solo lectura a documentos generales.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
 </div>
 
-<div id="contenido">
-
-    <div id="usuarios" class="seccion">
-        <h2>Usuarios</h2>
-        <table>
-            <tr><th>Usuario</th><th>Grupo</th></tr>
-            <tr><td>juan</td><td>IT</td></tr>
-            <tr><td>maria</td><td>RRHH</td></tr>
-            <tr><td>admin</td><td>Dirección</td></tr>
-        </table>
-    </div>
-
-    <div id="grupos" class="seccion oculto">
-        <h2>Grupos</h2>
-        <ul>
-            <li>GRP_IT</li>
-            <li>GRP_RRHH</li>
-            <li>GRP_DIRECCION</li>
-        </ul>
-    </div>
-
-    <div id="permisos" class="seccion oculto">
-        <h2>Permisos</h2>
-        <ul>
-            <li>IT → acceso a carpeta IT</li>
-            <li>RRHH → acceso a carpeta RRHH</li>
-            <li>PUBLICO → solo lectura</li>
-        </ul>
-    </div>
-
-</div>
-
+<script>
+    function updateActiveBtn(clickedBtn) {
+        document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+        clickedBtn.classList.add('active');
+    }
+</script>
 <script src="script.js"></script>
 </body>
 </html>
