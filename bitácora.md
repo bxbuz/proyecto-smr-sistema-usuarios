@@ -89,7 +89,15 @@ Solución:
 
 ---
 
+## Día 9 (Patricia y David)
+- Revisión final de la documentación del proyecto.
+- Mejora y ajuste de la presentación en Canva.
+- Edición del vídeo explicativo.
+- Preparación del guion para la exposición oral.
+
+---
+
 ## Valoración final del trabajo
 
 El proyecto se ha desarrollado de forma progresiva, combinando parte técnica y parte visual.
-Además, se han añadido mejoras como el uso de GPO, el rediseño de la web y la presentación del sistema mediante vídeo, lo que aporta un valor extra al resultado final.
+Además, se han añadido mejoras como el uso de GPO, el rediseño de la web y la presentación del sistema mediante vídeo.
