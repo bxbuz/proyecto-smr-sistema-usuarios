@@ -1,40 +1,95 @@
-## Día 1 (Patricia)
-- Creación del repositorio en GitHub
-- Instalación Windows Server
-- Configuración de red
-- Instalación de Active Directory
-- Creación del dominio empresa.local
+# Bitácora del Proyecto
 
-## Día 2 (Patricia) 
-- Verificación del dominio empresa.local
-- Comprobación de configuración de red
-- Acceso a Active Directory
-- Creación de estructura organizativa (OU)
-- Creación de grupos (RRHH, IT, Dirección)
-- Creación de usuarios (juan, maria, admin)
-- Asignación de usuarios a grupos
+## Día 1 (Patricia)
+- Creación del repositorio en GitHub para organizar el proyecto.
+- Instalación de Windows Server en máquina virtual.
+- Configuración inicial de red (IP estática y DNS).
+- Instalación del rol de Active Directory.
+- Creación del dominio empresa.local.
+
+---
+
+## Día 2 (Patricia)
+- Verificación del correcto funcionamiento del dominio empresa.local.
+- Revisión de la configuración de red.
+- Acceso a Active Directory.
+- Creación de unidades organizativas (OU).
+- Creación de grupos (RRHH, IT, Dirección).
+- Creación de usuarios (juan, maria, admin).
+- Asignación de usuarios a los grupos correspondientes.
+
+---
 
 ## Día 3 (David)
-- Creación de equipo cliente (PC-EMP01)
-- Configuración de red
-- Unión al dominio empresa.local
-- Inicio de sesión con usuario del dominio
+- Creación de la máquina cliente (PC-EMP01).
+- Configuración de red del cliente.
+- Unión del equipo al dominio empresa.local.
+- Inicio de sesión con un usuario del dominio.
+
+Problemas:
+- El equipo no se unía al dominio al principio.
+
+Solución:
+- Se corrigió la configuración de red y el DNS.
+
+---
 
 ## Día 4 (Patricia y David)
-- Creación de carpetas compartidas (RRHH, IT, PUBLICO)
-- Configuración de permisos por grupos
-- Pruebas de acceso desde cliente
-- Creación de GPO de seguridad
-- Configuración de políticas básicas
-- Inicio de la documentación del proyecto
+- Creación de carpetas compartidas (RRHH, IT, PUBLICO).
+- Configuración de permisos mediante grupos.
+- Eliminación de herencia en permisos.
+- Pruebas de acceso desde el cliente.
+- Creación de GPO de seguridad.
+- Configuración de políticas básicas (contraseñas, restricciones).
+- Inicio de la documentación del proyecto.
+
+---
 
 ## Día 5 (Patricia y David)
-- Desarrollo de interfaz web básica
-- Inicio avanzado de la documentación
-- Redacción de introducción, objetivos y diseño
+- Desarrollo de la primera versión de la interfaz web.
+- Inicio avanzado de la documentación.
+
+Problemas:
+- El diseño de la web era muy básico.
+
+Solución:
+- Se decidió mejorarla más adelante.
+
+---
 
 ## Día 6 (David)
-- Inicio de la presentación (canva)
+- Inicio de la presentación en Canva.
+- Organización de las diapositivas.
+- Estructuración del contenido de la exposición.
+
+---
 
 ## Día 7 (Patricia)
-- Mejora del diseño de la interfaz web
+- Mejora del diseño de la interfaz web.
+- Rediseño completo basándose en un diseño previo en Figma.
+
+Decisión importante:
+- Se decidió rehacer la web para que el proyecto tuviera un aspecto más profesional y no quedarse solo en una versión básica.
+
+---
+
+## Día 8 (Patricia y David)
+- Finalización de la documentación del proyecto.
+- Revisión y mejora del contenido para hacerlo más claro y completo.
+- Preparación del guion para la exposición.
+- Grabación del vídeo explicando el funcionamiento del sistema.
+
+Problemas:
+- Dificultad para resumir la información en la presentación sin que quedara demasiado simple.
+- Ajustar la duración del vídeo al tiempo requerido.
+
+Solución:
+- Se equilibró el contenido entre diapositivas y explicación oral.
+- Se organizó el guion del vídeo para que fuera claro y directo.
+
+---
+
+## Valoración final del trabajo
+
+El proyecto se ha desarrollado de forma progresiva, combinando parte técnica y parte visual.
+Además, se han añadido mejoras como el uso de GPO, el rediseño de la web y la presentación del sistema mediante vídeo, lo que aporta un valor extra al resultado final.
