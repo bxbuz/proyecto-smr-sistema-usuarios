@@ -2,18 +2,28 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Empresa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="login-page">
 
-<div class="login-container">
-    <h2>Acceso Empresa</h2>
+<div class="login-container glass-panel">
+    <div class="login-header">
+        <div class="logo-circle"></div>
+        <h2>Acceso Empresa</h2>
+        <p>Bienvenido de nuevo, por favor inicia sesión.</p>
+    </div>
 
     <form onsubmit="login(event)">
-        <input type="text" id="user" placeholder="Usuario" required>
-        <input type="password" id="pass" placeholder="Contraseña" required>
-        <button type="submit">Entrar</button>
+        <div class="input-group">
+            <input type="text" id="user" placeholder="Usuario" required>
+        </div>
+        <div class="input-group">
+            <input type="password" id="pass" placeholder="Contraseña" required>
+        </div>
+        <button type="submit" class="btn-primary">Entrar al Panel</button>
     </form>
 </div>
 
