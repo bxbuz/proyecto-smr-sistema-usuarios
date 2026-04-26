@@ -97,6 +97,14 @@ Solución:
 
 ---
 
+## Día 10 (Patricia y David)
+- Realización de los últimos retoques en la presentación de Canva para mejorar el diseñO.
+- Ajuste de pequeñas correcciones en el contenido de las diapositivas.
+- Revisión final del documento del proyecto para corregir detalles menores y mejorar la redacción.
+- Comprobación general de todos los apartados para asegurar que el proyecto estuviera completo y bien organizado.
+
+---
+
 ## Valoración final del trabajo
 
 El proyecto se ha desarrollado de forma progresiva, combinando parte técnica y parte visual.
