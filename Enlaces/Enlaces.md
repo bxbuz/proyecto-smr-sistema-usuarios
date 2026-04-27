@@ -5,7 +5,7 @@
 📎 https://canva.link/fatdyikefxv42ki
 
 ## 🎥 Vídeo explicativo
-📎 https://drive.google.com/file/d/1bgMm33RFarw0Tr7_pZvW6ffZ3kP355Ei/view?usp=sharing
+📎 https://drive.google.com/file/d/1zVOKyzM-3Mc8wt-VPOcgV8cJGyTU-hUX/view?usp=drive_link
 
 ## 🌐 Web
 📎 https://drive.google.com/drive/folders/1BjbA8DSz057qEbrKdxXRAFAm-Npt0MuU?usp=sharing
